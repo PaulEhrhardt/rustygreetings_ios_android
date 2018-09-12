@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FA020AD2149528A00DA52D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA020AC2149528A00DA52D1 /* AppDelegate.swift */; };
+		4FA020AF2149528A00DA52D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA020AE2149528A00DA52D1 /* ViewController.swift */; };
+		4FA020B22149528A00DA52D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA020B02149528A00DA52D1 /* Main.storyboard */; };
+		4FA020B42149528C00DA52D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA020B32149528C00DA52D1 /* Assets.xcassets */; };
+		4FA020B72149528C00DA52D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA020B52149528C00DA52D1 /* LaunchScreen.storyboard */; };
+		4FA020C12149530D00DA52D1 /* libgreetings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA020C02149530D00DA52D1 /* libgreetings.a */; };
+		4FA020C32149531800DA52D1 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA020C22149531800DA52D1 /* libresolv.tbd */; };
+		4FA020CA214954E400DA52D1 /* RustyGreetings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA020C9214954E400DA52D1 /* RustyGreetings.swift */; };
+		4FA020CE214958CE00DA52D1 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA020CD214958CE00DA52D1 /* test.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FA020A92149528A00DA52D1 /* rustygreetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rustygreetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA020AC2149528A00DA52D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FA020AE2149528A00DA52D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FA020B12149528A00DA52D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FA020B32149528C00DA52D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FA020B62149528C00DA52D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FA020B82149528C00DA52D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA020BE214952E800DA52D1 /* libgreetings.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgreetings.a; sourceTree = "<group>"; };
+		4FA020C02149530D00DA52D1 /* libgreetings.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgreetings.a; path = ../../cargo/target/universal/release/libgreetings.a; sourceTree = "<group>"; };
+		4FA020C22149531800DA52D1 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		4FA020C72149534600DA52D1 /* greetings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = greetings.h; path = ../../../../cargo/src/greetings.h; sourceTree = "<group>"; };
+		4FA020C9214954E400DA52D1 /* RustyGreetings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RustyGreetings.swift; sourceTree = "<group>"; };
+		4FA020CB214958CD00DA52D1 /* rustygreetings-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rustygreetings-Bridging-Header.h"; sourceTree = "<group>"; };
+		4FA020CC214958CE00DA52D1 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		4FA020CD214958CE00DA52D1 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FA020A62149528A00DA52D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA020C32149531800DA52D1 /* libresolv.tbd in Frameworks */,
+				4FA020C12149530D00DA52D1 /* libgreetings.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FA020A02149528A00DA52D1 = {
+			isa = PBXGroup;
+			children = (
+				4FA020BE214952E800DA52D1 /* libgreetings.a */,
+				4FA020AB2149528A00DA52D1 /* rustygreetings */,
+				4FA020AA2149528A00DA52D1 /* Products */,
+				4FA020BF2149530D00DA52D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FA020AA2149528A00DA52D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FA020A92149528A00DA52D1 /* rustygreetings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FA020AB2149528A00DA52D1 /* rustygreetings */ = {
+			isa = PBXGroup;
+			children = (
+				4FA020C52149533E00DA52D1 /* Header */,
+				4FA020AC2149528A00DA52D1 /* AppDelegate.swift */,
+				4FA020AE2149528A00DA52D1 /* ViewController.swift */,
+				4FA020B02149528A00DA52D1 /* Main.storyboard */,
+				4FA020B32149528C00DA52D1 /* Assets.xcassets */,
+				4FA020B52149528C00DA52D1 /* LaunchScreen.storyboard */,
+				4FA020B82149528C00DA52D1 /* Info.plist */,
+				4FA020C9214954E400DA52D1 /* RustyGreetings.swift */,
+				4FA020CC214958CE00DA52D1 /* test.h */,
+				4FA020CD214958CE00DA52D1 /* test.m */,
+			);
+			path = rustygreetings;
+			sourceTree = "<group>";
+		};
+		4FA020BF2149530D00DA52D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FA020C22149531800DA52D1 /* libresolv.tbd */,
+				4FA020C02149530D00DA52D1 /* libgreetings.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FA020C52149533E00DA52D1 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				4FA020CB214958CD00DA52D1 /* rustygreetings-Bridging-Header.h */,
+				4FA020C72149534600DA52D1 /* greetings.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FA020A82149528A00DA52D1 /* rustygreetings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA020BB2149528C00DA52D1 /* Build configuration list for PBXNativeTarget "rustygreetings" */;
+			buildPhases = (
+				4FA020A52149528A00DA52D1 /* Sources */,
+				4FA020A62149528A00DA52D1 /* Frameworks */,
+				4FA020A72149528A00DA52D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rustygreetings;
+			productName = rustygreetings;
+			productReference = 4FA020A92149528A00DA52D1 /* rustygreetings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FA020A12149528A00DA52D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Paul Ehrhardt";
+				TargetAttributes = {
+					4FA020A82149528A00DA52D1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 4FA020A42149528A00DA52D1 /* Build configuration list for PBXProject "rustygreetings" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FA020A02149528A00DA52D1;
+			productRefGroup = 4FA020AA2149528A00DA52D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FA020A82149528A00DA52D1 /* rustygreetings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FA020A72149528A00DA52D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA020B72149528C00DA52D1 /* LaunchScreen.storyboard in Resources */,
+				4FA020B42149528C00DA52D1 /* Assets.xcassets in Resources */,
+				4FA020B22149528A00DA52D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FA020A52149528A00DA52D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA020AF2149528A00DA52D1 /* ViewController.swift in Sources */,
+				4FA020CE214958CE00DA52D1 /* test.m in Sources */,
+				4FA020CA214954E400DA52D1 /* RustyGreetings.swift in Sources */,
+				4FA020AD2149528A00DA52D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FA020B02149528A00DA52D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FA020B12149528A00DA52D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FA020B52149528C00DA52D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FA020B62149528C00DA52D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FA020B92149528C00DA52D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FA020BA2149528C00DA52D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FA020BC2149528C00DA52D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JSAPN796E;
+				INFOPLIST_FILE = rustygreetings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../cargo/target/universal/release";
+				PRODUCT_BUNDLE_IDENTIFIER = de.ehrpaulhardt.rustygreetings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "rustygreetings/Header/rustygreetings-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FA020BD2149528C00DA52D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JSAPN796E;
+				INFOPLIST_FILE = rustygreetings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../cargo/target/universal/release";
+				PRODUCT_BUNDLE_IDENTIFIER = de.ehrpaulhardt.rustygreetings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "rustygreetings/Header/rustygreetings-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FA020A42149528A00DA52D1 /* Build configuration list for PBXProject "rustygreetings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA020B92149528C00DA52D1 /* Debug */,
+				4FA020BA2149528C00DA52D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA020BB2149528C00DA52D1 /* Build configuration list for PBXNativeTarget "rustygreetings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA020BC2149528C00DA52D1 /* Debug */,
+				4FA020BD2149528C00DA52D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FA020A12149528A00DA52D1 /* Project object */;
+}
