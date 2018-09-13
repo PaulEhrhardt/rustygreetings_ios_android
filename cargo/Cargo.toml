@@ -1,8 +1,0 @@
-[package]
-name = "greetings"
-version = "0.0.1"
-authors = ["Paul Ehrhardt <paul.ehrhardt@grandcentrix.net>"]
-
-[lib]
-name = "greetings"
-crate-type = ["staticlib", "cdylib"]

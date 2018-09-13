@@ -29,7 +29,7 @@
 		4FA020BE214952E800DA52D1 /* libgreetings.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgreetings.a; sourceTree = "<group>"; };
 		4FA020C02149530D00DA52D1 /* libgreetings.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgreetings.a; path = ../../cargo/target/universal/release/libgreetings.a; sourceTree = "<group>"; };
 		4FA020C22149531800DA52D1 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
-		4FA020C72149534600DA52D1 /* greetings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = greetings.h; path = ../../../../cargo/src/greetings.h; sourceTree = "<group>"; };
+		4FA020C72149534600DA52D1 /* greetings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = greetings.h; path = ../../../cargo/src/greetings.h; sourceTree = "<group>"; };
 		4FA020C9214954E400DA52D1 /* RustyGreetings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RustyGreetings.swift; sourceTree = "<group>"; };
 		4FA020CB214958CD00DA52D1 /* rustygreetings-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rustygreetings-Bridging-Header.h"; sourceTree = "<group>"; };
 		4FA020CC214958CE00DA52D1 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
@@ -330,7 +330,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../cargo/target/universal/release";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../cargo/target/universal/release";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ehrpaulhardt.rustygreetings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "rustygreetings/Header/rustygreetings-Bridging-Header.h";
@@ -353,7 +353,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../../cargo/target/universal/release";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../cargo/target/universal/release";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ehrpaulhardt.rustygreetings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "rustygreetings/Header/rustygreetings-Bridging-Header.h";
