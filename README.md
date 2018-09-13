@@ -72,7 +72,7 @@ ar = "<project path>/rustygreetings_ios_android/android/ndk/x86/bin/i686-linux-a
 linker = "<project path>/rustygreetings_ios_android/android/ndk/x86/bin/i686-linux-android-clang"
 ```
 
-To make the SDK’s visible for cargo the template file need to be copied this to the  *.cargo* directory in the user`s home folder:
+In order to make the SDKs visible for cargo the template file need to be copied to the *.cargo* directory in the user's home folder:
 
 `cp cargo-config.toml.templ ~/.cargo/config`
 
@@ -81,7 +81,7 @@ Add the newly created Android architectures to rustup:
 
 `rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android`
 
-In lack of an universal library like on iOS a separate one has to be created for each target:
+There are no universal libraries for Android. Hence, separate libs for each target have to be created:
 
 ```
 cd cargo
@@ -90,7 +90,7 @@ cargo build --target armv7-linux-androideabi --release
 cargo build --target i686-linux-android --release
 ```
 
-Create architecture folder and symlinks for Android Studio and do not forget to r eplace *<project path>* with the path to the project on the current maschine:
+Create architecture folder and symlinks for Android Studio. Replace *<project path>* with the path to the project on the current maschine:
 
 ```
 cd ../rustygreetings/app/src/main
