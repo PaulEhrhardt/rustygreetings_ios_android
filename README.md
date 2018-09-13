@@ -1,7 +1,8 @@
 # Rusty Greetings 
-##### A Rust shared library examplefor iOS and Android
+##### A Rust shared library example for iOS and Android
 
-![iOS Screenshot](ios.png "iOS Screenshot")
+![iOS Screenshot](ios.png "iOS Screenshot")  
+
 ![Android Screenshot](android.png "iOS Screenshot")
 
 
@@ -43,7 +44,7 @@ export ANDROID_HOME=/Users/$USER/Library/Android/sdk
 export NDK_HOME=$ANDROID_HOME/ndk-bundle
 ```
 
-Create standalone versions of the NDK to compile against. The `make_standalone_toolchain.py` script inside the Android NDK is used for this. Output is a folder called `ndk` inside the `android` folder of this project.
+Create standalone versions of the NDK to compile against. The *make_standalone_toolchain.py* script inside the Android NDK is used for this. Output is a folder called *ndk* inside the *android* folder of this project.
 
 ```
 cd android
