@@ -11,9 +11,9 @@
 .externalNativeBuild
 
 # Cargo
-/ndk
-/android/cargo/target/
-/ios/cargo/target/
+/android/ndk/*
+/android/cargo/target/*
+/ios/cargo/target/*
 
 
 ## Build generated
