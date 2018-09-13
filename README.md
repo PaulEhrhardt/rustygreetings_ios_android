@@ -1,4 +1,8 @@
-# rustygreetings_ios_android
+# Rusty Greetings 
+##### A Rust shared library examplefor iOS and Android
+
+![iOS Screenshot](ios.png "iOS Screenshot")
+![Android Screenshot](android.png "iOS Screenshot")
 
 
 ## Rust install steps (mandatory)
