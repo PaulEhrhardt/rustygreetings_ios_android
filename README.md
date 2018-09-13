@@ -111,11 +111,21 @@ ln -s <project_path>/rustygreetings_ios_android/android/cargo/target/i686-linux-
 
 ### Links and resources:
 https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-06-rust-on-ios.html
+
 https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html
+
+https://www.bignerdranch.com/blog/it-looks-like-you-are-trying-to-use-a-framework/
+
 https://www.bignerdranch.com/blog/building-an-ios-app-in-rust-part-1/
+
 https://www.bignerdranch.com/blog/building-an-ios-app-in-rust-part-2/
+
 https://www.bignerdranch.com/blog/building-an-ios-app-in-rust-part-3/
+
 https://github.com/fluffyemily/cross-platform-rust
+
 https://github.com/Geal/rust_on_mobile
+
 https://github.com/SSheldon/rust-block
-https://github.com/kennytm/rust-ios-androidhitecture/experiments/2017-09-21-rust-on-android.html
+
+https://github.com/kennytm/rust-ios-android
